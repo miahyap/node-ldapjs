@@ -2,7 +2,7 @@
   "originalAuthor": "Jeremiah Yap <miah.yap@gmail.com>",
   "name": "ldapjs-react-native",
   "description": "LDAPjs fork for React Native compatibility",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -26,5 +26,17 @@
     "vasync": "^2.2.0",
     "verror": "^1.8.1",
     "whatwg-url": "^8.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "front-matter": "^4.0.2",
+    "get-port": "^5.1.1",
+    "husky": "^4.2.5",
+    "marked": "^1.2.6",
+    "tap": "14.11.0"
   }
 }
